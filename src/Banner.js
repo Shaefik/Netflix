@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import axios from './axios';
-import requests from './requests';
+import axios from './axios'
+import requests from './requests'
 import "./Banner.css"
 
 function Banner() {
@@ -22,7 +22,6 @@ function Banner() {
     fetchData();
   }, []);
 
-  // console.log(movie)
 
   function truncate(str, n) {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
