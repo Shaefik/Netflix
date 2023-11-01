@@ -10,6 +10,7 @@ function App() {
 		<div className="app">
 			<Nav />
 			<Banner/>
+			<Row />
 			
 		</div>
 	);
